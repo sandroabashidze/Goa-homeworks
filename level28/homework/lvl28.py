@@ -1,13 +1,16 @@
 #2) შექმენით სია და შეიტანეთ 10 სხვადასხვა მონაცემთა ტიპის მნიშვნელობა, შემდეგ 5 მონაცემს  შეუცვალეთ   მნიშვნელობა და შემდეგ დაპრინტეთ მთლიანი სია.
 
-list =['vashli', 'kakali' , 'iogurti' , ' mafini' , 'atami' , 'telefoni' , 'leptopi' , 'gitara' , 'skami' , 'marwyvi' ]
-print('sia'list)
-list[0] = 'karebi'
-list[1] = 'magida'
-list[2] = 'pianino'
-list[3] = 'sawoli'
-list[4] = 'karebi'
-print('ganaxlebuli sia :   ' list)
+my_list = ['vashli', 'kakali', 'iogurti', 'mafani', 'atami', 'telefoni', 'leptopi', 'gitara', 'skami', 'marwyvi']
+
+print('sia:', my_list)
+
+my_list[0] = 'karebi'
+my_list[1] = 'magida'
+my_list[2] = 'pianino'
+my_list[3] = 'sawoli'
+my_list[4] = 'karebi'
+
+print('ganaxlebuli sia:', my_list)
 
 #3) სიაში ელემენტების ჯამი
 #შექმენი სია, რომელიც შეიცავს რიცხვებს. დაწერე კოდი, რომელიც გამოითვლის ამ სიის ელემენტების ჯამს და დაბეჭდავს შედეგს.
